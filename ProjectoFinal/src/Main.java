@@ -1,14 +1,28 @@
-import Clases.Familia;
-import Clases.Hijo;
+import Clases.*;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Hijo h1= new Hijo("Jaime", 6, "A+", "Hijo", "Estudiante");
+        Ropa blusa = new Ropa("blusa", 18500, 20, "S", "Seda", "Rojo");
+        Alimentos arroz = new Alimentos("arroz", 1700, 70, "15-julio-2026", "1 Libra");
+        Papeleria cuaderno = new Papeleria("Lapicero negro", 1200, 150, "100 hojas");
+        Aseo jabonLiquidoM = new Aseo("Jabón líquido para manos",5200, 32, "500mL" );
 
-        h1.setGrado("Quinto (5)");
-        h1.saludar();
-        h1.informar();
+        System.out.println("Información del producto: ");
+        blusa.mostrarDetalles();
+
+        System.out.println(" ");
+
+        System.out.println("Información del producto: ");
+        arroz.mostrarDetalles();
+
+        System.out.println(" ");
+
+        System.out.println("Información del producto: ");
+        cuaderno.mostrarDetalles();
+
+        System.out.println(" ");
+
+        System.out.println("Información del producto: ");
+        jabonLiquidoM.mostrarDetalles();
     }
 }
