@@ -11,6 +11,6 @@ public class Aseo extends Producto{
     @Override
     public void mostrarDetalles() {
         super.mostrarDetalles();
-        System.out.println("Cantidad: " + cantidad);
+        System.out.println("Cantidad:" + cantidad);
     }
 }

@@ -12,8 +12,8 @@ public class Producto{
     }
 
     public void mostrarDetalles() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Precio: $" + precio);
-        System.out.println("Unidades disponibles: " + unidadesDisponibles);
+        System.out.println("Nombre:" + nombre);
+        System.out.println("Precio:$" + precio);
+        System.out.println("Unidades disponibles:" + unidadesDisponibles);
     }
 }

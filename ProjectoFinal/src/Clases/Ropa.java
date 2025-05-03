@@ -16,8 +16,8 @@ public class Ropa extends Producto{
     @Override
     public void mostrarDetalles() {
         super.mostrarDetalles();
-        System.out.println("Talla: " + talla);
-        System.out.println("Material: " + material);
+        System.out.println("Talla:" + talla);
+        System.out.println("Material:" + material);
         System.out.println("Color:" + color);
     }
 }
