@@ -13,8 +13,8 @@ public class Alimentos extends Producto {
     @Override
     public void mostrarDetalles() {
         super.mostrarDetalles();
-        System.out.println("Fecha de caducidad:" + fechaDeCaducidad);
-        System.out.println("Cantidad:" + cantidad);
+        System.out.println("Fecha de caducidad: " + fechaDeCaducidad);
+        System.out.println("Cantidad: " + cantidad);
     }
 
 }
