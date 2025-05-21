@@ -6,8 +6,8 @@ public class Ropa extends Producto{
     private String color;
 
 
-    public Ropa(String nombre, int precio, int unidadesDisponibles, int unidadesvendidas, int unidadesAbastecidas, String talla, String material, String color) {
-        super(nombre, precio, unidadesDisponibles, unidadesvendidas, unidadesAbastecidas);
+    public Ropa(String nombre, int precio, int unidadesDisponibles, String talla, String material, String color) {
+        super(nombre, precio, unidadesDisponibles);
         this.talla = talla;
         this.material = material;
         this.color= color;
@@ -17,9 +17,7 @@ public class Ropa extends Producto{
     public void mostrarDetalles() {
         super.mostrarDetalles();
         System.out.println("Talla: " + talla);
-        System.out.println("Material " + material);
-        System.out.println("Color: " + color);
+        System.out.println("Material: " + material);
+        System.out.println("Color:" + color);
     }
-
-
 }
